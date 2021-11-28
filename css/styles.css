@@ -1,0 +1,656 @@
+@font-face{
+    src: url(../font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: open_sans;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: open_sans;
+    margin: 0;
+}
+
+.container{
+    padding: 0 100px;
+}
+
+.head{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+}
+
+.nav_item:hover{
+    padding: 8px 10px;
+    border-bottom: 2px solid black;
+}
+
+.nav_item:active{
+    background-color: #191919;
+}
+
+.nav_item a:active{
+    color: white;
+}
+
+.img{
+    display: block;
+    margin-right: auto;
+}
+
+.nav_items{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav_item{
+    padding:5px 10px;
+    font-size: 14px;
+}
+
+.nav_item a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.dropdown-menu:hover{
+    display: flex;
+}
+
+.dropdown-menu{
+    padding: 0;
+    margin: 0;
+    content: "";
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+   
+}
+
+.dropdown{
+    position: relative;
+}
+
+.tel{
+    padding-left: 15px;
+    display: flex;
+    border: 1px solid #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+    background-color: #00BAFC;
+    font-size: 14px;
+}
+
+.tel:hover{
+    padding-left: 15px;
+    display: flex;
+    border: 1px solid #0f6888;
+    border-radius: 5px;
+    padding: 8px 16px;
+    background-color: #0f6888;
+}
+
+.tel a{
+    text-decoration: none;
+    color: white;
+}
+
+.section1{
+    margin-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    width: 458px;
+    height: 258px;
+}
+
+.text h1{
+    font-weight: bold;
+}
+
+.button{
+    padding: 5px 15px;
+    background-color: #00BAFC;
+    width: 191px;
+    height: 35px;
+    border: 1px solid #00BAFC;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover{
+    opacity: 0.9;
+    padding: 5px 15px;
+    background-color: #0b749b;
+    width: 191px;
+    height: 35px;
+    border: 1px solid #00BAFC;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title_text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 170px;
+}
+
+.web{
+    position: relative;
+}
+
+.bot1{
+    margin: 0 auto;
+}
+
+.bot{
+    position: relative;
+}
+
+.smm{
+    position: relative;
+}
+
+.graph{
+    position: relative;
+}
+
+.graph1{
+    margin-left: 200px;
+}
+
+.crm{
+    position: relative;
+}
+
+.crm1{
+    margin-right: 200px;
+}
+
+.web h4,p{
+    padding: 0;
+    margin: 0;
+}
+
+.bot h4,p{
+    padding: 0;
+    margin: 0;
+}
+
+.smm h4,p{
+    padding: 0;
+    margin: 0;
+}
+
+.graph h4,p{
+    padding: 0;
+    margin: 0;
+}
+
+.crm h4,p{
+    padding: 0;
+    margin: 0;
+}
+
+.web h4{
+    margin-bottom: 15px;
+}
+
+.bot h4,p{
+    margin-bottom: 15px;
+}
+
+.smm h4,p{
+    margin-bottom: 15px;
+}
+
+.graph h4,p{
+    margin-bottom: 15px;
+}
+
+.crm h4,p{
+    margin-bottom: 15px;
+}
+
+.section2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.tel a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.web::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background: url(../img/web\ sayt.png) no-repeat;
+    top: 15px;
+}
+
+.bot::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background: url(../img/telegram_bot.png) no-repeat;
+    top: 15px;
+}
+
+.smm::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background: url(../img/smm.png) no-repeat;
+    top: 15px;
+}
+
+.graph::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background: url(../img/grafik_dizayn.png) no-repeat;
+    top: 15px;
+}
+
+.crm::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background: url(../img/crm.png) no-repeat;
+    top: 15px;
+}
+
+.for_hover{
+    position: relative;
+    width: 320px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+    align-items: center;
+    margin-top: 45px;
+    padding: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+}
+
+.for_hover:hover{
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1); 
+    
+}  
+
+.for_hover:active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); 
+
+}
+
+.button_down_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    margin-bottom: 45px;
+}
+
+
+.button2{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+    background-color: #00BAFC;
+    width: 191px;
+    height: 35px;
+    border: 1px solid #00BAFC;
+    border-radius: 5px;
+    color: white;
+    margin-right: 21px;
+}
+
+.button2:hover{
+    opacity: 0.8;
+    background-color: #00BAFC;
+    border: 1px solid #00BAFC;
+    border-radius: 5px;
+    color: white;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.button_down_title>a{
+    color: #00BAFC;
+    font-size: 13px;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;  
+}
+
+.row:nth-child(2n+1){
+    height: 300px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;   
+}
+
+.row:nth-child(2n){
+    height: 300px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;   
+}
+
+.services{
+    padding: 0 100px;
+}
+
+.row1{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    padding-right: 55px;
+}
+
+.row1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: url(../img/pic1.png) no-repeat;
+    left: 45px;
+    top: 25px;
+}
+
+.row2{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    padding-left: 55px;
+}
+
+.row2::after{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: url(../img/rasm2.png) no-repeat;
+    right: 45px;
+    top: 25px;
+}
+
+.row3{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    padding-right: 55px;
+}
+
+.row3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: url(../img/rasm3.png) no-repeat;
+    left: 45px;
+    top: 25px;
+}
+
+.row4{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    padding-left: 55px;
+}
+
+.row4::after{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: url(../img/rasm4.png) no-repeat;
+    right: 45px;
+    top: 25px;
+}
+
+.row5{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    padding-right: 55px;
+}
+
+.row5::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: url(../img/rasm5.png) no-repeat;
+    left: 45px;
+    top: 25px;
+}
+
+.row a{
+    text-decoration: none;
+    color: black;
+}
+
+.button_down_title1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.labels{
+    width: 300px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.labels input{
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 260px;
+}
+
+.button_last{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+    background-color: #00BAFC;
+    width: 191px;
+    height: 35px;
+    border: 1px solid #00BAFC;
+    padding: 0;
+    margin: 15px;
+    margin-bottom: 22px;
+    border-radius: 5px;
+    color: white; 
+}
+
+.button_last a{
+    text-decoration: none;
+    color: white;
+}
+
+.background_labels{
+    background-color: #00BAFC;
+}
+
+.all_labels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    background-color: #00BAFC;
+}
+
+.foot{
+    background-color:#191919;
+}
+
+.bottom-foot{
+    display: flex;
+    padding: 30px 0;
+    
+}
+
+.foot-text{
+    width: 370px;
+}
+
+.list1{
+    padding-left: 60px;
+    list-style: none;
+}
+
+.list2{
+    padding-left: 60px;
+    list-style: none;
+}
+
+.item1{
+    position: relative;
+    padding: 0 0 5px 0;
+    color: white;
+}
+
+.item{
+    position: relative;
+    padding: 5px 0;
+    color: white;
+}
+
+.foot-text > p{
+    color: white;
+}
+
+.little-text1{
+    padding-left: 58px;
+    color: white;
+}
+
+.distance{
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.icon{
+    padding-left: 30px;
+}
+
+.icon::before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 23.25px;
+    background-image: url(../img/telegram.svg);
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.icon2{
+    padding-left: 30px;
+}
+
+.icon2::before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 23.25px;
+    background-image: url(../img/facebook.png);
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.icon3{
+    padding-left: 30px;
+}
+
+.icon3::before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 23.25px;
+    background-image: url(../img/instagram.png);
+    left: 0;
+    display: flex;
+    align-items: center;
+}
